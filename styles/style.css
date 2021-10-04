@@ -121,5 +121,31 @@ button {
   border-radius: 15px;
 }
 
+#quote-section {
+  background-color: #e5e7eb;
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+#quote-section .content {
+  width: 55rem;
+  flex-direction: column;
+  /* margin: 0 auto; */
 
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.content .author {
+  color: #1f2937;
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 50px 0 0;
+}
