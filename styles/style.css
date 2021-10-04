@@ -25,11 +25,14 @@ ul {
   justify-content: center;
 }
 
+#header {
+  padding: 15px 0;
+}
+
 .content {
   display: flex;
   align-items: center;
-  width: 50rem;
-  background-color: pink;
+  width: 60rem;
 }
 
 .logo {
@@ -37,3 +40,47 @@ ul {
   font-weight: bold;
   flex: 1;
 }
+
+#hero {
+  padding: 130px 0;
+}
+
+#hero .content {
+  gap: 20px;
+  color: #e5e7eb;
+}
+
+.description {
+  flex: 1;
+}
+
+.description h1 {
+  font-size: 48px;
+}
+
+.description p {
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+button {
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 5px;
+  color: #f9faf8;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.img {
+  background-color: rgb(109, 116, 125);
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
