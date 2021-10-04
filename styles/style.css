@@ -7,65 +7,31 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.nav, .hero {
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#header {
   background-color: #1f2937;
   color: white;
-  padding: 100px 200px;
+  padding: 15px 150px;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-top: 15px; 
-  padding-bottom: 30px;
 }
 
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-h1 {
-  font-size: 48px;
-  color: #f9faf8;
-}
-
-.hero p {
-  color: #e5e7eb;
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-.hero button {
-  padding: 10px 40px;
-  border-radius: 5px;
-  border: 0;
-  color: white;
-  background-color: #3882f6;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-img {
-  max-width: 400px;
-  height: auto;
-}
-
-h2 {
+.nav p {
+  flex: 1;
   font-size: 24px;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
+  font-weight: bold;
+  color: #f9faf8;
 }
