@@ -20,7 +20,7 @@ ul {
   gap: 30px;
 }
 
-#header, #hero {
+#header, #hero, #footer {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
@@ -161,7 +161,9 @@ button {
   display: flex;
   flex-wrap: wrap;
   padding: 35px;
-  gap: 50px
+  padding-left: 100px;
+  gap: 50px;
+  color: #e5e7eb;
 }
 
 .banner-bg button {
@@ -174,4 +176,9 @@ button {
 
 .banner-bg p:nth-child(2) {
   font-size: 15px;
+}
+
+#footer {
+  padding: 25px;
+  font-size: 13px;
 }
