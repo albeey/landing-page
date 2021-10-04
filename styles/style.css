@@ -84,3 +84,42 @@ button {
   font-size: 15px;
 }
 
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+}
+
+#info h2 {
+  font-size: 36px;
+  color: #1f2947;
+  padding-bottom: 40px;
+}
+
+.info-content {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+  gap: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.square {
+  width: 100%;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+}
+
+
+
